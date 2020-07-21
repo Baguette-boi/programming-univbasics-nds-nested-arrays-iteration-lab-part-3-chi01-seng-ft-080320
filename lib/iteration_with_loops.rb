@@ -9,7 +9,7 @@ def join_nested_strings(src)
     
     while inner_count < src[count].count do
       if src[count][inner_count].class == string_element.class
-      string += 
+      string " " += 
       src[count][inner_count]
       
       end
